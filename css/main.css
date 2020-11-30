@@ -1,0 +1,26 @@
+/* цвет логотипа #2196F3 и #000000 */
+/* белый #ffffff */
+/* фон #e5e5e5  и f5f4fa */
+
+/* =========== hero ============== */
+.hero-title {
+  /* color: #ffffff; */
+  color: #000000;
+}
+/* =========== section =========== */
+
+.section-title {
+  color: var(--title-text-color);
+}
+/* ========= skill ========= */
+.skill-list {
+  color: var(--primary-text-color);
+}
+
+/* ============list======= */
+/* .list */
+.list {
+  list-style: none;
+}
+
+/* ========== examples ======== */

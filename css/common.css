@@ -18,15 +18,84 @@ body {
   color: var(--primary-text-color);
   font-family: var(--main-font);
 }
-ul {
+/* *,
+      ::after,
+      ::before {margin: 0; padding: 0;}
+       */
+/* ul {
   list-style: none;
   text-decoration: none;
 }
 a {
   text-decoration: none;
   list-style: none;
+} */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+ .container { 
+  width: 1600px; 
+  
+} 
+
+/* ================ Heder ==================== */
+.page-header {
+   display: flex;
+   
+   color:tomato;
+}
+.page-header .logo {
+  margin-right: 93px;
+
+}
+
+.nav {
+  display: flex;
+
+}
+ .nav-list {
+  display: flex; 
+} 
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+
+}
+
+
+.address-list {
+  display: flex;
+  margin-left: 321px;
+}
+.address-list-item:not(:last-child)
+ {margin-right: 50px;
+
+}
 /* =========logo========== */
 .logo {
   font-family: var(--secondary-font);
@@ -49,13 +118,13 @@ a {
 /* =========logo end ========== */
 
 /* ============ site-nav ============ */
-.site-nav .link {
+ .nav-list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  text-decoration: none;
+  text-decoration: none; 
 }
 .link-mail {
   font-style: normal;
@@ -76,15 +145,17 @@ a {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+ .nav-list .link:hover,
+ .nav-list .link:focus {
   color: var(--accent-color);
-}
+} 
 
-.site-nav .link.current {
-  color: var(--accent-color);
-}
+  .nav-list .link.current {
+   color: var(--accent-color);
+} 
 /* ============ site-nav end ============ */
+
+/* ================ Heder end ==================== */
 
 /* =========== hero ============== */
 .hero-title {
@@ -177,16 +248,16 @@ a {
   /* color: #FFFFFF;  */
 }
 
-.address-list-item {
+/* .list-item {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  /* color: #FFFFFF; */
+  color: #FFFFFF; */
 }
-.address-list-item-mail {
+.list-item-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -195,7 +266,7 @@ a {
   text-decoration: none;
   /* color: rgba(255, 255, 255, 0.6); */
 }
-.address-list-item-tel {
+.list-item-tel {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

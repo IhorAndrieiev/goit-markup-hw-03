@@ -60,7 +60,8 @@ img {
 }
 
  .container { 
-  width: 1170px; 
+  width: 1200px; 
+  padding: 0 15px; 
   margin: 0 auto;
 } 
 
@@ -68,9 +69,9 @@ img {
 .page-header .container{
     display: flex;
     align-items: center;
-    padding-left: 52px; 
-    padding-top: 54px;
-    padding-bottom: 31px;
+
+  
+   
 
     /* width: 1222px; 
     min-height: 105px;
@@ -91,15 +92,16 @@ img {
   
   display: block;
   width: 145px;
-  
+  padding-top: 24px;
   border: 0px;
-  padding: 0px;
+  padding-bottom: 25px;
 }  
 /* display: flex; */
  .nav-list {
   display: flex;
-   /* border: 0px;
-  padding: 0px;  */
+  border: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;  
 } 
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -114,7 +116,7 @@ img {
   display: flex;
   
    border: 0px;
-  padding: 0px; 
+  padding: 32px auto; 
 }
 .address-list-item:not(:last-child)
  {margin-right: 50px;
@@ -197,26 +199,13 @@ img {
   clip: rect(0 0 0 0);
 }
 /*== приемущества и особенности skill =====*/
-.section-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-text-color);
-}
 
-.text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
+/* перенесены в файл "main" этой же папки  */
+
 /* ============ end sill =========== */
 
 /* =====--Примеры работ--====== */
-.section-title-about {
+.section-title-about, .section-title-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;

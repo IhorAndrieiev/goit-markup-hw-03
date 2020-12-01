@@ -66,36 +66,55 @@ img {
 
 /* ================ Heder ==================== */
 .page-header {
-   display: flex;
+    display: flex;
+    align-items: center; 
+    width: 1600px; 
+    margin: 0 auto;
    
-   color:tomato;
+  
 }
 .page-header .logo {
   margin-right: 93px;
 
 }
-
 .nav {
   display: flex;
-
+  align-items: center;
 }
+
+ .logo {
+  
+  display: block;
+  width: 145px;
+  margin-left: 215px;
+  border: 0px;
+  padding: 0px;
+}  
+/* display: flex; */
  .nav-list {
-  display: flex; 
+  display: flex;
+   /* border: 0px;
+  padding: 0px;  */
 } 
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 
 }
-
-
-.address-list {
+.page-header .address {
+  /* display: flex;*/
+  margin-left: auto;
+}
+ 
+ .address-list {
   display: flex;
-  margin-left: 321px;
+   margin-right: 215px; 
+   border: 0px;
+  padding: 0px; 
 }
 .address-list-item:not(:last-child)
  {margin-right: 50px;
 
-}
+} 
 /* =========logo========== */
 .logo {
   font-family: var(--secondary-font);

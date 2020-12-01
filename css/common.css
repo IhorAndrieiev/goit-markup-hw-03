@@ -60,15 +60,20 @@ img {
 }
 
  .container { 
-  width: 1600px; 
+  width: 1170px; 
   margin: 0 auto;
 } 
 
 /* ================ Heder ==================== */
 .page-header .container{
     display: flex;
-    align-items: center; 
-    /* width: 1600px; 
+    align-items: center;
+    padding-left: 52px; 
+    padding-top: 54px;
+    padding-bottom: 31px;
+
+    /* width: 1222px; 
+    min-height: 105px;
     margin: 0 auto; */
    
   
@@ -86,7 +91,7 @@ img {
   
   display: block;
   width: 145px;
-  margin-left: 215px;
+  
   border: 0px;
   padding: 0px;
 }  
@@ -107,7 +112,7 @@ img {
  
  .address-list {
   display: flex;
-   margin-right: 215px; 
+  
    border: 0px;
   padding: 0px; 
 }
@@ -177,25 +182,7 @@ img {
 /* ================ Heder end ==================== */
 
 /* =========== hero ============== */
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: var(--accent-color);
-}
+/* перенесены в файл "main" этой же папки  */
 /* =========== hero end ============== */
 .visually-hidden {
   position: absolute;

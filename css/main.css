@@ -3,9 +3,45 @@
 /* фон #e5e5e5  и f5f4fa */
 
 /* =========== hero ============== */
+.hero {
+  min-height: 600px;
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 452px 280px;
+}
+
+/* .hero-bunner {
+  
+} */
+
 .hero-title {
-  /* color: #ffffff; */
-  color: #000000;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  margin: auto;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 32px;
+
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 4px;
 }
 /* =========== section =========== */
 
@@ -16,6 +52,8 @@
 .skill-list {
   color: var(--primary-text-color);
 }
+
+/* =========== hero end ============== */
 
 /* ============list======= */
 /* .list */

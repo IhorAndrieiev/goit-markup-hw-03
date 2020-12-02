@@ -110,6 +110,7 @@
 .work-list {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 94px;
 }
 .work-list .work-img:not(:last-child) {
   margin-right: 30px;
@@ -125,5 +126,28 @@
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+/* ============ <!--Примеры работ end--> ============ */
 
+/* ========== команда team ========== */
+.section-title-team {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.work-list-team {
+  display: flex;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
 /* ========== examples ======== */

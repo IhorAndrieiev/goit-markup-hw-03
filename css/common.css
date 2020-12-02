@@ -206,20 +206,7 @@ img {
   /* =====--Примеры работ end--====== */
 
   /* ========== команда team ========== */
-  .team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-  }
-  .team-position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-  }
+             /* перенесены в файл "main" этой же папки  */
   /* =====-- команда team end--====== */
 
   /* =========-- Футер --=========== */

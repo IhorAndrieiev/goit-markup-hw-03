@@ -130,18 +130,33 @@
 
 /* ========== команда team ========== */
 .section-title-team {
-  margin-top: 94px;
+  margin-top: 188px;
   margin-bottom: 50px;
 }
 .work-list-team {
+  margin-bottom: 94px;
   display: flex;
+  justify-content: space-between;
 }
 .team-name {
+  margin-bottom: 10px;
+}
+.work-list-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* .work-list-team .work-team:not(:last-child) {
+  margin-right: 30px;
+  padding: 0;
+  border: 0;
+} */
+.work-list-team .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-align: center;
 }
 .team-position {
   font-weight: 400;
@@ -149,5 +164,6 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  text-align: center;
 }
 /* ========== examples ======== */

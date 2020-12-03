@@ -327,13 +327,18 @@ img {
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
+  text-align: center;
 
   display: flex;
   justify-content: space-between;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 
-  /* color: var(--primary-white-color);
-  background-color: var(--accent-color); */
-}
+   /* .fil-list > .fil-btn:hover, 
+      .fil-list > .fil-btn:focus {
+         color: var(--primary-white-color);
+         background-color: var(--accent-color);
+     } */
 .proj-list {
   display: flex;
   flex-wrap: wrap;

@@ -293,3 +293,17 @@ img {
 .navigation-list-link.current {
   color: var(--accent-color);
 }
+
+/* =======portfolio filtr=========== */
+/* .portfolio-list {
+  display: flex;
+} */
+
+/* projects */
+.proj-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.proj-item {
+  flex-basis: calc(100% / 3);
+}

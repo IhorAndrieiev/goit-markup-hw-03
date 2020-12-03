@@ -333,12 +333,13 @@ img {
   justify-content: space-between;
   color: var(--title-text-color);
   background-color: #f5f4fa;
+}
+.fil-list > .fil-btn:hover,
+.fil-list > .fil-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 
-   /* .fil-list > .fil-btn:hover, 
-      .fil-list > .fil-btn:focus {
-         color: var(--primary-white-color);
-         background-color: var(--accent-color);
-     } */
 .proj-list {
   display: flex;
   flex-wrap: wrap;

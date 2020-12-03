@@ -76,176 +76,199 @@ img {
      background-color: #ccc;
   }  */
 
-    /* width: 1222px; 
+  /* width: 1222px; 
     min-height: 105px;
     margin: 0 auto; */
-  }
-  .page-header .logo {
-    margin-right: 93px;
-  }
-  .nav {
-    display: flex;
-    align-items: center;
-  }
+}
+.page-header .logo {
+  margin-right: 93px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
 
-  .logo {
-    display: block;
-    width: 145px;
-    padding-top: 24px;
-    border: 0px;
-    padding-bottom: 25px;
-  }
-  /* display: flex; */
-  .nav-list {
-    display: flex;
-    border: 0px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
-  }
-  .nav-list-item:not(:last-child) {
-    margin-right: 50px;
-  }
-  .page-header .address {
-    /* display: flex;*/
-    margin-left: auto;
-  }
+.logo {
+  display: block;
+  width: 145px;
+  padding-top: 24px;
+  border: 0px;
+  padding-bottom: 25px;
+}
+/* display: flex; */
+.nav-list {
+  display: flex;
+  border: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.page-header .address {
+  /* display: flex;*/
+  margin-left: auto;
+}
 
-  .address-list {
-    display: flex;
+.address-list {
+  display: flex;
 
-    border: 0px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  .address-list-item:not(:last-child) {
-    margin-right: 50px;
-  }
-  /* =========logo========== */
-  .logo {
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
-  }
-  .logo-web {
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-  }
-  /* =========logo end ========== */
+  border: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.address-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+/* =========logo========== */
 
-  /* ============ site-nav ============ */
-  .nav-list .link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-    text-decoration: none;
-  }
-  .link-mail {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    text-decoration: none;
-  }
-  .link-tel {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    text-decoration: none;
-  }
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-web {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+/* =========logo end ========== */
 
-  .nav-list .link:hover,
-  .nav-list .link:focus {
-    color: var(--accent-color);
-  }
+/* ============ site-nav ============ */
+.nav-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.link-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.link-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
 
-  .nav-list .link.current {
-    color: var(--accent-color);
-  }
-  /* ============ site-nav end ============ */
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
 
-  /* ================ Heder end ==================== */
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+/* ============ site-nav end ============ */
 
-  /* =========== hero ============== */
-  /* перенесены в файл "main" этой же папки  */
-  /* =========== hero end ============== */
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+/* ================ Heder end ==================== */
 
-    white-space: nowrap;
-    clip-path: imset(100%);
-    clip: rect(0 0 0 0);
-  }
-  /*== приемущества и особенности skill =====*/
-         /* перенесены в файл "main" этой же папки  */
+/* =========== hero ============== */
+/* перенесены в файл "main" этой же папки  */
+/* =========== hero end ============== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: imset(100%);
+  clip: rect(0 0 0 0);
+}
+/*== приемущества и особенности skill =====*/
+/* перенесены в файл "main" этой же папки  */
 /* ============ end sill =========== */
 
-  /* =====--Примеры работ--====== */
-        /* перенесены в файл "main" этой же папки  */
-  /* =====--Примеры работ end--====== */
+/* =====--Примеры работ--====== */
+/* перенесены в файл "main" этой же папки  */
+/* =====--Примеры работ end--====== */
 
-  /* ========== команда team ========== */
-             /* перенесены в файл "main" этой же папки  */
-  /* =====-- команда team end--====== */
+/* ========== команда team ========== */
+/* перенесены в файл "main" этой же папки  */
+/* =====-- команда team end--====== */
 
-  /* =========-- Футер --=========== */
-  .footer-logo {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    /* color: #FFFFFF;  */
-  }
-
-  /* .list-item {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: #FFFFFF; */
+/* =========-- Футер --=========== */
+.footer {
+  background-color: #2f303a;
+  min-height: 252px;
 }
-.list-item-mail {
+
+.footer-logo {
+  font-family: var(--secondary-font);
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: var(--primary-white-color);
+
+  display: block;
+  width: 145px;
+  padding-top: 60px;
+  border: 0px;
+  padding-bottom: 20px;
 }
-.list-item-tel {
+
+.foot-nav {
+  min-height: 81px;
+}
+.link-address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: #ffffff;
+  width: 231px;
+  height: 21px;
+}
+.foot-link-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.foot-link-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
 }
 
 /* =========-- Футер end --=========== */

@@ -18,7 +18,7 @@
   href="./css/common.css" 
   />
   <link rel="stylesheet" 
-  href="./css/main.css" 
+  href="./css/portfolio.css" 
   />
 </head>
 
@@ -71,38 +71,38 @@
 
   <main class="main">
     <!-- фильтр -->
-    <section class="portfolio">
+    <section class="portfolio container">
       <!-- filtr -->
-      <div class="container fil">
+      <div class=" fil">
       <h1 class="visually-hidden">Фильтр проектов</h1>
 
       <ul class="fil-list list">
-        <li class="fil-list-item">
-          <button class="fil-btn" 
+        <li class="fil-list-item ">
+          <button class="fil-btn fil-all" 
           type="button">
             Все
           </button>
         </li>
         <li class="fil-list-item">
-          <button class="fil-btn" 
+          <button class="fil-btn fil-web" 
           type="button">
             Веб-сайты
           </button>
         </li>
         <li class="fil-list-item">
-          <button class="fil-btn" 
+          <button class="fil-btn fil-applic" 
           type="button">
             Приложения
           </button>
         </li>
         <li class="fil-list-item">
-          <button class="fil-btn" 
+          <button class="fil-btn fil-design" 
           type="button">
             Дизайн
           </button>
         </li>
         <li class="fil-list-item">
-          <button class="fil-btn" 
+          <button class="fil-btn fil-market" 
           type="button">
             Маркетинг
           </button>
@@ -110,13 +110,13 @@
       </ul>
       </div>
 
-      <div class="container proj">
+      <div class="proj">
         <h2 class="visually-hidden">Портфолио</h2>
 
         <ul class="proj-list list">
           <!-- === a Монитор ноутбука с лицами === -->
           <li class="proj-item">
-            <a href="">
+            <a class="link" href="">
               <img src="./images/portfolio/imgtehno.jpg" 
               alt="Монитор ноутбука с лицами" width="370" height="294">
               <div class="proj-text">
@@ -130,7 +130,7 @@
           </li>
           <!-- === b Известные баскетболисты с мячем === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imgstar.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imgstar.jpg" 
               alt="Известные баскетболисты с мячем" width="370" height="294">
               <div class="proj-text">
                 <h3 lang="en" class="work-title">
@@ -143,7 +143,7 @@
           </li>
           <!-- === c логотип ресторана сиафуд === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imgseafood.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imgseafood.jpg" 
               alt="логотип ресторана сиафуд" width="370" height="294">
               <div class="proj-text">
                 <h3 lang="en" class="work-title">
@@ -156,7 +156,7 @@
           </li>
           <!-- === d наушники === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imgprime.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imgprime.jpg" 
               alt="наушники" width="370" height="294">
               <div class="proj-text">
                 <h3 lang="en" class="work-title">
@@ -169,7 +169,7 @@
           </li>
           <!-- === e две коробки на белом фоне === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imgboxes.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imgboxes.jpg" 
               alt="две коробки на белом фоне" width="370" height="294">
               <div class="proj-text">
                 <h3 lang="en" class="work-title">
@@ -182,7 +182,7 @@
           </li>
           <!-- === f Монитор компа === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imgnobord.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imgnobord.jpg" 
               alt="Монитор компа" width="370" height="294">
               <div class="proj-text">
                 <h3 lang="en" class="work-title">
@@ -195,7 +195,7 @@
           </li>
           <!-- === g раскрытый журнал === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imglimedit.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imglimedit.jpg" 
               alt="раскрытый журнал" width="370" height="294">
               <div class="proj-text">
                  <h3 lang="en" class="work-title">
@@ -208,7 +208,7 @@
           </li>
           <!-- === h бирка на шнурке === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imglab.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imglab.jpg" 
               alt="бирка на шнурке" width="370" height="294">
               <div class="proj-text">
                 <h3 class="work-title">
@@ -221,7 +221,7 @@
           </li>
           <!-- === i Монитор ноутбука с приложением === -->
           <li class="proj-item">
-            <a href=""><img src="./images/portfolio/imgbusiness.jpg" 
+            <a class="link" href=""><img src="./images/portfolio/imgbusiness.jpg" 
               alt="Монитор ноутбука с приложением" width="370"
                 height="294">
                 <div class="proj-text">
@@ -248,19 +248,19 @@
          <div class="foot-nav">
         <address class="footer-address">
           <ul class="footer-address-list list">
-            <li class="address-list-item-add">
+            <li class="footer-address-list-item-add">
               <a href="https://goo.gl/maps/7p2n6qCXevgdCQAM8" 
-              class="link address">
+              class="link-address">
                 г. Киев, пр-т Леси Украинки, 26</a>
             </li>
         
-            <li class="address-list-item">
+            <li class="footer-address-list-item">
               <!-- Ссылка на адрес электронной почты  -->
               <a href="mailto:info@devstudio.com" 
               class="foot-link-mail">
                 info@devstudio.com</a>
             </li>
-            <li class="address-list-item">
+            <li class="footer-address-list-item">
               <!-- Ссылка на телефонный номер -->
               <a href="tel:+380961111111" 
               class="foot-link-tel">

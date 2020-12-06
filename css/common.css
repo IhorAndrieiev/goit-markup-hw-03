@@ -65,8 +65,9 @@ img {
   margin: 0 auto;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
+  /* padding-top: 94px; */
+  /* padding-bottom: 94px; */
 }
 .portfolio {
   padding-top: 94px;
@@ -82,7 +83,7 @@ img {
 }
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* width: 1222px; 

@@ -58,8 +58,8 @@
 /* =========== hero end ============== */
 /* =========== section =========== */
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;*/
+  /* padding-bottom: 94px; */
 }
 /*--приемущества и особенности-->*/ /* ========= skill ========= */
 .skill-list {
